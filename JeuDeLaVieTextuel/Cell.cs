@@ -16,7 +16,7 @@ namespace JeuDeLaVieTextuel
         }
 
         private bool _nextState;
-        public bool NextSate
+        public bool NextState
         {
             get { return _nextState; }
             set { _nextState = value; }
@@ -31,17 +31,17 @@ namespace JeuDeLaVieTextuel
         
         public void ComeAlive()
         {
-            NextSate = true;
+            NextState = true;
         }
         
         public void PassAway()
         {
-            NextSate = false;
+            NextState = false;
         }
         
         public void Update()
         {
-            IsAlive = NextSate;
+            IsAlive = NextState;
         }
 
 

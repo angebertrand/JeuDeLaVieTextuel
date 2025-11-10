@@ -140,15 +140,60 @@ namespace JeuDeLaVieTextuel
        
         public void UpdateGrid()
         {
-            // Méthode qui parcourt chaque cellule et qui met à jour leur attribut
-            //_nextStep, via son accesseur en écriture, en fonction des règles de la simulation.
-            //L’attribut est mis à true si la cellule reste en vie ou apparaît et à false si la
-       //cellule à cet emplacement disparaît ou reste absente. Une fois toute la grille
-       //parcourue, une deuxième passe est effectué pour associer la valeur de nexStep à
-       //l’attribut isAlive de chaque cellule.
-        // TODO : première passe : calculer nextState pour chaque cellule
-        // TODO : deuxième passe : appliquer nextState à _isAlive
- }
+
+            // Premier parcours de cellules :
+
+            for (int x = 0; x < N; x++)
+            {
+                for (int y = 0; y < N; y++)
+                {
+                    int nbNeighbor = getNbAliveNeighboor(x, y); // Compte le nbr de voisins
+
+                    Cell cellule = TabCells[x, y];
+
+                    if (cellule.IsAlive == false) // Si pas de cellule
+                    {
+                        if (nbNeighbor == 3)
+                        {
+                            cellule.ComeAlive(); // Si il y a trois voisins, elle "nait"
+                        }
+                        else
+                        {
+                            cellule.PassAway(); // Sinon elle reste morte
+                        }
+                    }
+
+                    if (cellule.IsAlive == true) // Si cellule vivante 
+                    {
+                        if (nbNeighbor == 2 || nbNeighbor == 3)
+                        {
+                            cellule.ComeAlive(); // Si il y a deudx ou trois voisins elle vit
+                        }
+                        else
+                        {
+                            cellule.PassAway(); // Sinon elle disparait
+                        }
+                    }
+                }
+
+            }
+
+            // Deuxième parcours de cellules :
+
+            for (int x = 0; x < N; x++)
+            {
+                for (int y = 0; y < N; y++)
+                {
+
+                    Cell cellule = TabCells[x, y];
+
+                    cellule.Update();
+
+                }
+
+            }
+
+        }
 
 
     }

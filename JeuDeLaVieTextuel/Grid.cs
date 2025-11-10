@@ -18,17 +18,34 @@ namespace JeuDeLaVieTextuel
             set { _n = value; }
         }
 
-        public Cell[,] TabCells;
+        public Cell[,] TabCells; // [,] veut dire tableau à 2 dimensions
 
         
         public Grid(int nbCells, List<Coords> AliveCellsCoords)
         {
-            // TODO : initialiser n et TabCells
-            // TODO : remplissage du tableau avec à chaque emplacement une instance
-            //d’une cellule Cell créée vivante(true) si les coordonnées sont dans la liste
-            //AliveCellsCoords ou absente(false) sinon.
-        }
-        // ★★☆ Méthode : retourne le nombre de cellules vivantes autour d'une
+            N = nbCells;
+            TabCells = new Cell[N, N];
+
+            for (int x = 0; x < N; x++)
+            {
+                for (int y = 0; y < N; y++)
+                {
+                    if (AliveCellsCoords.Contains(new Coords(x, y)))
+                    {
+                        TabCells[x, y] = new Cell(true); // Si les coordnées sont dans la liste, on crée une nouvelle cellule vivante
+                        
+                    }
+                    else
+                    {
+                        TabCells[x, y] = new Cell(false); // Sinon on crée une cellule morte
+                    }
+                }
+
+            }
+
+                }
+
+        //retourne le nombre de cellules vivantes autour d'une
         //cellule
         public int getNbAliveNeighboor(int i, int j)
         {

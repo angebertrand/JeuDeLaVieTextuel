@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Net;
 using System.Runtime.ConstrainedExecution;
@@ -49,7 +50,32 @@ namespace JeuDeLaVieTextuel
         //cellule
         public int getNbAliveNeighboor(int i, int j)
         {
-            return 0;
+            int nbAlive = 0;
+
+            foreach (int dx in new int[] { -1, 0, 1 })
+            {
+                foreach (int dy in new int[] { -1, 0, 1 })
+                {
+                    if (dx == 0 && dy == 0)
+                    {
+                        continue;
+                    }
+
+                    int nx = i + dx;
+                    int ny = j + dy;
+
+
+                    if (nx >= 0 && nx < N && ny >= 0 && ny < N)
+                    {
+                        if (TabCells[nx, ny].IsAlive == true)
+                        {
+                            nbAlive++;
+                        }
+                    }
+                }
+            }
+
+            return nbAlive;
         }
         
         public List<Coords> getCoordsCellsAlive()

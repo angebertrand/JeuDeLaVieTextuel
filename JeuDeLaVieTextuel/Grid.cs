@@ -101,6 +101,41 @@ namespace JeuDeLaVieTextuel
         
         public void DisplayGrid()
         {
+
+            for (int x = 0; x < N; x++)
+            {
+                for (int y = 0; y < N; y++)
+                {
+                    Console.Write("+---");
+
+
+                }
+                Console.WriteLine("+");
+                for (int y = 0; y < N; y++)
+                {
+                    Console.Write("| ");
+
+                    // Cellule ou Vide :
+
+                    if (TabCells[x, y].IsAlive == true)
+                    {
+                        Console.Write("X ");
+                    }
+                    else
+                    {
+                        Console.Write("  "); // deux espaces pour indenter
+                    }
+                }
+                Console.WriteLine("|");
+            }
+
+            for (int y = 0; y < N; y++) // dernière ligne
+            {
+                Console.Write("+---");
+
+
+            }
+            Console.WriteLine("+");
         }
        
         public void UpdateGrid()

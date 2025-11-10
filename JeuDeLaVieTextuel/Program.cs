@@ -1,14 +1,16 @@
-﻿using System;
-
-namespace JeuDeLaVieText
+﻿using JeuDeLaVieTextuel;
+using System;
+namespace JeuDeLaVie
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Grid grid = new Grid(2, new List<Coords>());
+            grid.DisplayGrid();
 
+            //Game game = new Game(4, 10);
+            //game.RunGameConsole();
         }
-
-
     }
 }

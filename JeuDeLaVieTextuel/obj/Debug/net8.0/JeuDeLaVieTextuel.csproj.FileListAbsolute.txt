@@ -1,0 +1,15 @@
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\bin\Debug\net8.0\JeuDeLaVieTextuel.exe
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\bin\Debug\net8.0\JeuDeLaVieTextuel.deps.json
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\bin\Debug\net8.0\JeuDeLaVieTextuel.runtimeconfig.json
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\bin\Debug\net8.0\JeuDeLaVieTextuel.dll
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\bin\Debug\net8.0\JeuDeLaVieTextuel.pdb
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\JeuDeLaVieTextuel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\JeuDeLaVieTextuel.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\JeuDeLaVieTextuel.AssemblyInfo.cs
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\JeuDeLaVieTextuel.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\JeuDeLaVieTextuel.sourcelink.json
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\JeuDeLaVieTextuel.dll
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\refint\JeuDeLaVieTextuel.dll
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\JeuDeLaVieTextuel.pdb
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\JeuDeLaVieTextuel.genruntimeconfig.cache
+C:\Users\Utilisateur\Documents\GitHub\JeuDeLaVieTextuel\JeuDeLaVieTextuel\obj\Debug\net8.0\ref\JeuDeLaVieTextuel.dll

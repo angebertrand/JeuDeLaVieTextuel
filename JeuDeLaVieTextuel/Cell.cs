@@ -23,5 +23,27 @@ namespace JeuDeLaVieTextuel
         }
 
 
+        
+        public Cell(bool state)
+        {
+            IsAlive = state;
+        }
+        
+        public void ComeAlive()
+        {
+            NextSate = true;
+        }
+        
+        public void PassAway()
+        {
+            NextSate = false;
+        }
+        
+        public void Update()
+        {
+            IsAlive = NextSate;
+        }
+
+
     }
 }

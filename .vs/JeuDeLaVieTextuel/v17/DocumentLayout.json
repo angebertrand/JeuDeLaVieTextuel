@@ -38,8 +38,7 @@
               "RelativeToolTip": "JeuDeLaVieTextuel\\Game.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:33:47.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T08:33:47.31Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "JeuDeLaVieTextuel\\Grid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:33:35.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T08:33:35.982Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "JeuDeLaVieTextuel\\Cell.cs",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Cell.cs",
               "RelativeToolTip": "JeuDeLaVieTextuel\\Cell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T08:27:36.097Z",
               "EditorCaption": ""
@@ -77,8 +75,7 @@
               "RelativeToolTip": "JeuDeLaVieTextuel\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:27:18.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T08:27:18.329Z"
             }
           ]
         }

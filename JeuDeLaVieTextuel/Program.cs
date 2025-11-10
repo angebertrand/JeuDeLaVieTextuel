@@ -6,9 +6,9 @@ namespace JeuDeLaVieText
     {
         static void Main(string[] args)
         {
-           
+
         }
 
-        
+
     }
 }

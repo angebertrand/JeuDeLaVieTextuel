@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|solutionrelative:jeudelavietextuel\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|solutionrelative:jeudelavietextuel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Cell.cs",
+              "RelativeDocumentMoniker": "JeuDeLaVieTextuel\\Cell.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Cell.cs",
+              "RelativeToolTip": "JeuDeLaVieTextuel\\Cell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T08:27:36.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Program.cs",
+              "RelativeDocumentMoniker": "JeuDeLaVieTextuel\\Program.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Program.cs",
+              "RelativeToolTip": "JeuDeLaVieTextuel\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T08:27:18.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

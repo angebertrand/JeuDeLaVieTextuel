@@ -46,9 +46,9 @@ namespace JeuDeLaVieTextuel
 
                 }
 
-        //retourne le nombre de cellules vivantes autour d'une
-        //cellule
-        public int getNbAliveNeighboor(int i, int j)
+        
+       
+        public int getNbAliveNeighboor(int i, int j) //retourne le nombre de cellules vivantes autour d'une cellule
         {
             int nbAlive = 0;
 
@@ -58,14 +58,14 @@ namespace JeuDeLaVieTextuel
                 {
                     if (dx == 0 && dy == 0)
                     {
-                        continue;
+                        continue; // Pour ne pas que ça compte la case de la cellule
                     }
 
                     int nx = i + dx;
                     int ny = j + dy;
 
 
-                    if (nx >= 0 && nx < N && ny >= 0 && ny < N)
+                    if (nx >= 0 && nx < N && ny >= 0 && ny < N) // Eviter de sortir de la grille
                     {
                         if (TabCells[nx, ny].IsAlive == true)
                         {
@@ -80,7 +80,23 @@ namespace JeuDeLaVieTextuel
         
         public List<Coords> getCoordsCellsAlive()
         {
-            return new List<Coords>();
+            List<Coords> coordCells = new List<Coords>();
+
+            for (int x = 0; x < N; x++)
+            {
+                for (int y = 0; y < N; y++)
+                {
+                    if (TabCells[x, y].IsAlive == true)
+                    {
+                        coordCells.Add(new Coords(x, y));
+                    }
+
+
+                }
+            }
+
+
+            return coordCells;
         }
         
         public void DisplayGrid()

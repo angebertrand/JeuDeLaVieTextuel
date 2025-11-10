@@ -6,11 +6,10 @@ namespace JeuDeLaVie
     {
         static void Main()
         {
-            Grid grid = new Grid(2, new List<Coords>());
-            grid.DisplayGrid();
+           
 
-            //Game game = new Game(4, 10);
-            //game.RunGameConsole();
+            Game game = new Game(11, 10);
+            game.RunGameConsole();
         }
     }
 }

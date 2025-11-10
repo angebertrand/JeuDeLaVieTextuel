@@ -14,25 +14,49 @@ public class Game
     public List<Coords> AliveCellsCoords;
 
 
-    // ★★★ Constructeur : initialise la simulation
+    
     public Game(int nbCells, int nbIterations)
     {
-        // TODO : initialiser n et iter
-        // TODO : initialiser AliveCellsCoords avec une configuration initiale
-        // TODO : créer une nouvelle grille Grid(n, AliveCellsCoords)
-        // (quelques exemples de configuration de départ sont fournis en fin de
-        //sujet)
- }
-    // ★★★ Méthode : exécute la simulation dans la console
+        n = nbCells;
+        iter = nbIterations;
+
+        /*
+        // Emergence d'un cercle sur une grille 5,5
+        AliveCellsCoords = new List<Coords> {
+         new Coords(n/2, n/2),
+         new Coords(n/2+1, n/2),
+         new Coords(n/2, n/2+1),
+         new Coords(1,1)
+        };
+        */
+
+        // Evolution d'une croix sur une grille 11,11
+        AliveCellsCoords = new List<Coords> {
+         new Coords(5, 5),
+         new Coords(5, 4),
+         new Coords(5, 6),
+         new Coords(4, 5),
+         new Coords(6, 5),
+        };
+
+
+        grid = new Grid(n, AliveCellsCoords);
+        
+       
+    }
+    
     public void RunGameConsole()
     {
-        // TODO : afficher la grille initiale avec grid.DisplayGrid()
+        grid.DisplayGrid();
+
+        
         // Boucle sur le nombre d'itérations
         for (int i = 0; i < iter; i++)
         {
-            // TODO : mettre à jour la grille avec grid.UpdateGrid()
-            // TODO : afficher la grille après mise à jour avec grid.DisplayGrid()
-            // TODO : mettre en pause 1 seconde avec Thread.Sleep(1000)
+            grid.UpdateGrid();
+            grid.DisplayGrid();
+            Thread.Sleep(1000);
+            
         }
     }
 }

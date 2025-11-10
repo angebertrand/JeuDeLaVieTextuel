@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeuDeLaVieTextuel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3ca88129db9e061286202264e84248fc11941e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+118c3dc7a69518eb5a32a13f7a7a1b7e7cc62785")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeuDeLaVieTextuel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeuDeLaVieTextuel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|solutionrelative:jeudelavietextuel\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|solutionrelative:jeudelavietextuel\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|solutionrelative:jeudelavietextuel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|solutionrelative:jeudelavietextuel\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|solutionrelative:jeudelavietextuel\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|solutionrelative:jeudelavietextuel\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D4D5A12-51C7-4531-AEF2-6C2DCAC6BD58}|JeuDeLaVieTextuel\\JeuDeLaVieTextuel.csproj|c:\\users\\utilisateur\\documents\\github\\jeudelavietextuel\\jeudelavietextuel\\coords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -46,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Game.cs",
               "RelativeDocumentMoniker": "JeuDeLaVieTextuel\\Game.cs",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Game.cs",
               "RelativeToolTip": "JeuDeLaVieTextuel\\Game.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T08:33:47.31Z",
               "EditorCaption": ""
@@ -67,31 +67,34 @@
               "RelativeToolTip": "JeuDeLaVieTextuel\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:27:18.329Z"
+              "WhenOpened": "2025-11-10T08:27:18.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Grid.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Grid.cs",
               "RelativeDocumentMoniker": "JeuDeLaVieTextuel\\Grid.cs",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Grid.cs",
               "RelativeToolTip": "JeuDeLaVieTextuel\\Grid.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwIwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:33:35.982Z"
+              "WhenOpened": "2025-11-10T08:33:35.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Cell.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Cell.cs",
               "RelativeDocumentMoniker": "JeuDeLaVieTextuel\\Cell.cs",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\GitHub\\JeuDeLaVieTextuel\\JeuDeLaVieTextuel\\Cell.cs",
               "RelativeToolTip": "JeuDeLaVieTextuel\\Cell.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:27:36.097Z"
+              "WhenOpened": "2025-11-10T08:27:36.097Z",
+              "EditorCaption": ""
             }
           ]
         }

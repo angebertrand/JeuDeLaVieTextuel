@@ -30,7 +30,7 @@ namespace JeuDeLaVieTextuel
 
         public override string ToString()
         {
-            return "";
+            return $"({X}, {Y})";
         }
     }
 }
